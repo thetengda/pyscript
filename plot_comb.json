@@ -1,0 +1,75 @@
+{
+    "mix": false,
+    "cfiles": "d190/*.mp5",
+    "rcv": "411a",
+    "lim": {
+        "open": false,
+        "dp25": {
+            "rcv": [
+                -50,
+                50
+            ],
+            "G": [
+                -350,
+                -250
+            ],
+            "E": [
+                -45,
+                45
+            ],
+            "C": [
+                -50,
+                50
+            ]
+        }
+    },
+    "ylabel": {
+        "dl15": {
+            "G": "L1-L2",
+            "E": "E1-E5a",
+            "C": "B1C-B2a"
+        },
+        "dl25": {
+            "C": "B1I-B2a"
+        },
+        "dp15": {
+            "G": "L1-L2",
+            "E": "E1-E5a",
+            "C": "B1C-B2a"
+        },
+        "dp25": {
+            "C": "B1I-B2a"
+        },
+        "pmc1": {
+            "G": "P-L(L1)",
+            "E": "P-L(E1)",
+            "C": "P-L(B1C)"
+        },
+        "pmc2": {
+            "C": "P-L(B1I)"
+        },
+        "pmc5": {
+            "G": "P-L(L5)",
+            "E": "P-L(E5a)",
+            "C": "P-L(B2a)"
+        },
+        "mp1": {
+            "G": "L1",
+            "E": "E1",
+            "C": "B1C"
+        },
+        "mp2": {
+            "C": "B1I"
+        },
+        "mp5": {
+            "G": "L5",
+            "E": "E5a",
+            "C": "B2a"
+        }
+    },
+    "title": {
+        "rcv": "Receiver",
+        "neiz": "Internal Antenna",
+        "waiz": "External Antenna"
+    }
+}
